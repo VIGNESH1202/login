@@ -1,0 +1,79 @@
+body{
+    background-color: rgba(199, 223, 95, 0.788);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.regform{
+    width: 600px;
+    margin-left:400px ;
+    margin-top: 80px ;
+    padding: 20px 10px 10px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    display: block;
+    
+}
+.regform1{
+    width: 600px;
+    margin-left:400px ;
+    margin-top: 10px ;
+    padding: 20px 10px 10px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    display: block;
+    
+}
+.regform h3{
+    color:#e29578;
+    text-align: center;
+
+}
+.regform.textlabel{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: 30px;
+    border: 1px solid #006d77;
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px ;
+}
+input :focus{
+    background-color: #83c5be;
+}
+.btn{
+    text-align: center;
+
+}
+button{
+    background-color:black;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid #006d77;
+    box-shadow: 2px;
+}
+.radio input{
+    accent-color: #83c5be;
+    transform:scale(1.5)
+
+}
+.remember{
+    padding: 30px;
+    padding-right: 20px;
+    display: flex;
+    justify-content:space-around;
+
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+}
